@@ -1,0 +1,38 @@
+Epoch[1/20](20/118) || training loss 0.908 || training accuracy 60.82% || lr 0.001
+Epoch[1/20](40/118) || training loss 0.291 || training accuracy 80.04% || lr 0.001
+Epoch[1/20](60/118) || training loss 0.2751 || training accuracy 81.80% || lr 0.001
+Epoch[1/20](80/118) || training loss 0.182 || training accuracy 86.45% || lr 0.001
+Epoch[1/20](100/118) || training loss 0.2147 || training accuracy 83.55% || lr 0.001
+Calculating validation results...
+New best model for val accuracy : 84.15%! saving the best model..
+[Val] acc : 84.15%, loss: 0.18 || best acc : 84.15%, best loss: 0.18 || f1 score : 0.85
+early stopping patience 0
+
+Epoch[2/20](20/118) || training loss 0.1284 || training accuracy 89.69% || lr 0.001
+Epoch[2/20](40/118) || training loss 0.09377 || training accuracy 90.78% || lr 0.001
+Epoch[2/20](60/118) || training loss 0.09028 || training accuracy 91.60% || lr 0.001
+Epoch[2/20](80/118) || training loss 0.1276 || training accuracy 89.22% || lr 0.001
+Epoch[2/20](100/118) || training loss 0.133 || training accuracy 88.71% || lr 0.001
+Calculating validation results...
+[Val] acc : 83.10%, loss: 0.21 || best acc : 84.15%, best loss: 0.18 || f1 score : 0.84
+early stopping patience 1
+
+Epoch[3/20](20/118) || training loss 0.08468 || training accuracy 92.50% || lr 0.001
+Epoch[3/20](40/118) || training loss 0.07727 || training accuracy 92.81% || lr 0.001
+Epoch[3/20](60/118) || training loss 0.08693 || training accuracy 92.23% || lr 0.001
+Epoch[3/20](80/118) || training loss 0.1058 || training accuracy 90.43% || lr 0.001
+Epoch[3/20](100/118) || training loss 0.09761 || training accuracy 91.25% || lr 0.001
+Calculating validation results...
+[Val] acc : 83.31%, loss: 0.19 || best acc : 84.15%, best loss: 0.18 || f1 score : 0.85
+early stopping patience 2
+
+Epoch[4/20](20/118) || training loss 0.08125 || training accuracy 92.70% || lr 0.001
+Epoch[4/20](40/118) || training loss 0.06657 || training accuracy 94.10% || lr 0.001
+Epoch[4/20](60/118) || training loss 0.07434 || training accuracy 93.05% || lr 0.001
+Epoch[4/20](80/118) || training loss 0.0884 || training accuracy 92.54% || lr 0.001
+Epoch[4/20](100/118) || training loss 0.1039 || training accuracy 90.43% || lr 0.001
+Calculating validation results...
+[Val] acc : 82.59%, loss: 0.25 || best acc : 84.15%, best loss: 0.18 || f1 score : 0.84
+Early stopping
+test inference started!
+test inference is done!
