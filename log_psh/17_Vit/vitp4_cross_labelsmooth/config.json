@@ -1,0 +1,25 @@
+{
+    "seed": 42,
+    "epochs": 20,
+    "dataset": "MaskBaseDataset",
+    "augmentation": "YoonpyoAugmentation_test",
+    "resize": [
+        224,
+        224
+    ],
+    "batch_size": 16,
+    "valid_batch_size": 34,
+    "model": "Vit_p8",
+    "optimizer": "Adam",
+    "lr": 1e-05,
+    "val_ratio": 0.2,
+    "criterion": "cross_labelsmooth",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "vitp4_cross_labelsmooth",
+    "data_dir": "../input/data/train/images",
+    "model_dir": "./Vit",
+    "patience_limit": 3,
+    "exp_name": "sh_vitp8_cross_labelsmooth",
+    "inference_make": false
+}
