@@ -1,0 +1,25 @@
+{
+    "seed": 42,
+    "epochs": 20,
+    "dataset": "MaskBaseDataset",
+    "augmentation": "YoonpyoAugmentation",
+    "resize": [
+        512,
+        384
+    ],
+    "batch_size": 32,
+    "valid_batch_size": 32,
+    "model": "EfficientNetB4",
+    "optimizer": "Adam",
+    "lr": 1e-05,
+    "val_ratio": 0.2,
+    "criterion": "focal_ce",
+    "lr_decay_step": 20,
+    "log_interval": 20,
+    "name": "eff4_label_smoothing",
+    "data_dir": "../input/data/train/images",
+    "model_dir": "EfficientNetB4",
+    "patience_limit": 3,
+    "exp_name": "sh_eff4_focal_ce_e5",
+    "inference_make": true
+}
